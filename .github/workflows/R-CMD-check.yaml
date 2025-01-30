@@ -26,4 +26,5 @@ jobs:
 
       - name: Run custom R script
         run: |
-          Rscript scripts/my_analysis.R
+          Rscript R/data_cleaning.R
+          Rscript R/analysis.R
