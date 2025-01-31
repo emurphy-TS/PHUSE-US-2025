@@ -22,7 +22,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          Rscript -e 'install.packages(c("dplyr", "devtools", "tidyverse", "pharmaversesdtm"))'
+          Rscript -e 'install.packages("remotes")'
+          Rscript -e 'remotes::install_cran("tidyverse", dependencies = TRUE)'
+          Rscript -e 'remotes::install_cran("dplyr", dependencies = TRUE)'
+          Rscript -e 'remotes::install_cran("devtools", dependencies = TRUE)'
+          Rscript -e 'remotes::install_cran("pharmaversesdtm", dependencies = TRUE)'
 
       - name: Run custom R script
         run: |
