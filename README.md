@@ -9,7 +9,7 @@ In recent years, R has gained popularity in the clinical analytics and reporting
 # Useful Links
 Below is a list of some of the tools mentioned during this talk:
 
- - [testthat](https://www.mockaroo.com/](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf))
+ - [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
  - [usethis](https://usethis.r-lib.org)
  - [shinytest2](https://rstudio.github.io/shinytest2/)
  - [shiny](https://github.com/rstudio/shiny)
